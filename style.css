@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.top-container {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    max-height: 700px;
+}
+
+.top-image {
+    width: 100%;
+    max-height: 700px;
+
+}
+
+.my-name {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.center-text {
+    width: 100%;
+    max-height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cv-image {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+}
+
+.remove-thumbnail-padding {
+    padding: 0;
+}
+
+@media (max-width: 574px) {
+    .experience-row {
+        text-align: center;
+    }
+
+    .experience-subtitle {
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .experience-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .download-image {
+        height: 75px;
+    }
+}
+
+.download-image {
+    height: 75px;
+}
+
+.my-footer {
+    background-color: #F0F0F0;
+}
+
+.footer-area {
+    width: 100%;
+}
+
+.social-link {
+    color: #000;
+    text-decoration-color: #000;
+}
