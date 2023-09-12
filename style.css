@@ -44,15 +44,15 @@ body {
     padding: 0;
 }
 
-@media (max-width: 574px) {
-    .experience-row {
+@media (max-width: 768px) {
+    /* .experience-row {
         text-align: center;
     }
 
     .experience-subtitle {
         text-align: justify;
         text-align-last: center;
-    }
+    } */
 
     .experience-image {
         width: 250px;
@@ -61,6 +61,7 @@ body {
 
     .download-image {
         height: 75px;
+        /* width: 240px; */
     }
 }
 
