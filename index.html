@@ -26,27 +26,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-        <div class="container px-5">
-            <!-- <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Start Bootstrap</span></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#pro">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
+    <nav class="py-2">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto fw-bold">
+                <li class=""><a class="nav-link px-0 text-secondary" href="#experience">Experience</a></li>
+                <li class=""><a class="nav-link py-2 text-secondary" href="#education">Education</a></li>
+                <li class=""><a class="nav-link py-2 text-secondary" href="#projects">Projects</a></li>
+                <li class=""><a class="nav-link py-2 text-secondary" href="#skills">Skills</a></li>
+            </ul>
+            <div class="nav">
+                <a class="btn btn-outline-primary p-2 flex-nowra" href="#!">
+                    <div class="d-inline-block bi bi-download me-2"></div>
+                    <span>Download Resume</span>
+                </a>
             </div>
         </div>
     </nav>
+
     <div class="top-container">
         <img class="object-fit-cover top-image" src="./images/background-3.jpg" alt="">
         <div class="center-text text-center">
             <h1 class="display-2 my-3 my-name">Sann Chesda</h1>
             <h2>A Curious Software Developer</h2>
+            <!-- <div class="d-flex flex-wrap align-items-center justify-content-center ">
+                <a href="https://www.linkedin.com/in/chesda-sann-105992181/" class="nav-link mx-2 text-muted">
+                    <img class="object-fit-cover" src="./images/linkedin-logo.png" alt="" height="48">
+                </a>
+                <a href="https://t.me/sannchesda" class="nav-link mx-2 text-muted">
+                    <img class="object-fit-cover" src="./images/telegram-logo.png" alt="" height="28">
+                </a>
+                <a href="#" class="nav-link mx-2 text text-muted">
+                    <img class="object-fit-cover" src="./images/gmail-logo.png" alt="" height="24">
+                </a>
+            </div> -->
         </div>
     </div>
 
@@ -66,88 +78,93 @@
                         </p>
                     </div>
                     <div class="col">
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="container px-5 ">
-        <div class="text-center mb-5">
-            <h1 id="resume" class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-11 col-xl-9 col-xxl-8">
-                <!-- Experience Section-->
-                <section>
-                    <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h2 class="text-primary fw-bolder mb-0">Experience</h2>
-                        <!-- Download resume button-->
-                        <!-- Note: Set the link href target to a PDF file within your project-->
-                        <!-- TODO: Download Porfolio -->
-                        <a class="btn btn-primary p-3" href="#!">
-                            <div class="d-inline-block bi bi-download me-2"></div>
-                            Download Resume
-                        </a>
-                    </div>
-                    <!-- Experience Card 1-->
-                    <div class="card shadow border-0 rounded-4 mb-5">
-                        <div class="card-body p-5">
-                            <div class="row align-items-center gx-5">
-                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                    <div class="bg-light p-3 rounded-4">
-                                        <div class="text-primary fw-bolder mb-2">JULY 2021 - FEBRUARY 2022</div>
-                                        <div class="small fw-bolder">Mobile Developer</div>
-                                        <a href="https://mptc.gov.kh/" target="_blank">
-                                            <div class="small text-muted">Ministry of Posts and Telecommunication</div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <div>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,
-                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis
-                                        sed aliquam non voluptate corrupti excepturi maxime porro fuga.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <section id="experience">
+        <div class="container px-5 ">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Experience</span>
+                </h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Experience Section-->
 
                     <div class="card shadow border-0 rounded-4 mb-5">
-                        <div class="card-body p-5">
-                            <div class="row align-items-center gx-5">
-                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                    <div class="bg-light p-3 rounded-4">
-                                        <div class="text-primary fw-bolder mb-2">FEBRUARY 2023 - JULY 2023</div>
-                                        <div class="small fw-bolder">Senior Mobile Developer</div>
-                                        <a href="https://pointerasia.com/" target="_blank">
-                                            <div class="small text-muted">Pointer Property Co, LTD</div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <div>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,
-                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis
-                                        sed aliquam non voluptate corrupti excepturi maxime porro fuga.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-                <!-- Education Section-->
-                <section>
-                    <h2 class="text-secondary fw-bolder mb-4">Education</h2>
-                    <!-- Education Card 1-->
-                    <div class="card shadow border-0 rounded-4 mb-5">
-                        <div class="card-body p-5">
+                        <div class="card-body p-4">
                             <div class="row align-items-center ">
                                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                    <div class="bg-light p-4 rounded-4">
+                                    <div class="bg-light p-3 rounded-4">
+                                        <div class="text-primary fw-bolder mb-2">Senior Mobile Developer</div>
+                                        <a href="https://pointerasia.com/" target="_blank">
+                                            <div class="small fw-bolder text-muted">Pointer Property Co, LTD</div>
+                                        </a>
+                                        <div class="small text-muted">FEBRUARY - JULY 2023</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div>
+                                        At Pointer, I worked as a senior mobile developer and collaborated with a UI/UX
+                                        designer to build a mobile app for property owners to provide feedback and make
+                                        recursive payments named. The app is integrated with various tools such as
+                                        Firebase, ABA Payway, Mixpanel, and Sentry. Additionally, I contributed to the
+                                        development of a mobile app, which lists available properties and allows users
+                                        to book visits.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center ">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="bg-light p-3 rounded-4">
+                                        <div class="text-primary fw-bolder mb-2">Mobile Developer</div>
+                                        <a href="https://mptc.gov.kh/" target="_blank">
+                                            <div class="small fw-bolder text-muted">Ministry of Posts and
+                                                Telecommunication</div>
+                                        </a>
+                                        <div class="small text-muted">JULY 2021 - FEBRUARY 2023</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div>
+                                        I have gained experience in building, designing mobile apps and integrating with
+                                        existing and new APIs. I have contributed to the development of a HRMIS mobile
+                                        app, a web eLearning platform and a mobile app for the Office of the Council of
+                                        Ministers.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container px-5 ">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0">
+                    <span class="text-gradient d-inline">Education</span>
+                </h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center ">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="bg-light p-3 rounded-4">
                                         <div class="text-secondary fw-bolder mb-2">2017 - 2021</div>
                                         <div class="mb-2">
                                             <div class="small fw-bolder">Limkowing University of Phnom Penh</div>
@@ -159,75 +176,38 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
-                                    <ul>
-                                        <li>C++ programming 1 & 2 • Object Oriented Programming</li>
-                                    </ul>
+                                    <div>
+                                        At Limkokwing University, I learned C++ programming, Object Oriented
+                                        Programming, Software Design, and Database Design & Management. I also gained
+                                        hands-on experience building e-commerce app on iOS and Android using Firebase.
+                                        My average GPA was 3.85.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Education Card 2-->
+
                     <div class="card shadow border-0 rounded-4 mb-5">
-                        <div class="card-body p-5">
-                            <div class="row align-items-center gx-5">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center ">
                                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                    <div class="bg-light p-4 rounded-4">
-                                        <div class="text-secondary fw-bolder mb-2">2011 - 2015</div>
+                                    <div class="bg-light p-3 rounded-4">
+                                        <div class="text-secondary fw-bolder mb-2">JULY - OCTOBER 2019</div>
                                         <div class="mb-2">
-                                            <div class="small fw-bolder">ULA</div>
-                                            <div class="small text-muted">Los Angeles, CA</div>
+                                            <div class="small fw-bolder">ARROW DOT HARDWARE PROGRAMMING</div>
                                         </div>
                                         <div class="fst-italic">
-                                            <div class="small text-muted">Undergraduate</div>
-                                            <div class="small text-muted">Computer Science</div>
+                                            <div class="small text-muted">Short Course</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
-                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,
-                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis
-                                        sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div>
+                                    <div>
+                                        This short course help me learn programming in a new way through hands-on
+                                        experience with hardware programming and using tools like Arduino and Processing
+                                        IDE with Java. This provide me unique perspective and skill set in programming.
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-
-    <section class="py-5">
-        <div class="container px-5 mb-5">
-            <div class="text-center mb-5">
-                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
-            </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-11 col-xl-9 col-xxl-8">
-                    <!-- Project Card 1-->
-                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                        <div class="card-body p-0">
-                            <div class="d-flex align-items-center">
-                                <div class="p-5">
-                                    <h2 class="fw-bolder">Project Name 1</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum
-                                        aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad
-                                        asperiores! Explicabo commodi quo itaque! Ipsam!</p>
-                                </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project Card 2-->
-                    <div class="card overflow-hidden shadow rounded-4 border-0">
-                        <div class="card-body p-0">
-                            <div class="d-flex align-items-center">
-                                <div class="p-5">
-                                    <h2 class="fw-bolder">Project Name 2</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum
-                                        aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad
-                                        asperiores! Explicabo commodi quo itaque! Ipsam!</p>
-                                </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="...">
                             </div>
                         </div>
                     </div>
@@ -236,102 +216,204 @@
         </div>
     </section>
 
-
-    <div class="container px-5 ">
-        <div class="text-center mb-5">
-            <h1 id="resume" class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Skills</span></h1>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-11 col-xl-9 col-xxl-8">
-                <!-- Skills Section-->
-                <section>
-                    <!-- Skillset Card-->
+    <section id="projects">
+        <div class="container px-5 mb-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
                     <div class="card shadow border-0 rounded-4 mb-5">
                         <div class="card-body p-5">
-                            <!-- Professional skills list-->
-                            <div class="container" id="icon-grid">
-                                <div class="d-flex align-items-center">
-                                    <h3 class="fw-bolder mb-0">
-                                        <span class="text-gradient d-inline">Professional Skills</span>
-                                    </h3>
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="p-3  rounded-4">
+                                        <img class="img-fluid border rounded-4 project-image"
+                                            src="./images/estate-logo.png">
+                                    </div>
                                 </div>
-
-                                <div class="row row-cols-1 row-cols-lg-2 g-4 pt-5">
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3"
-                                            src="./images/flutter-logo.png" width="48px" height="48px">
-
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Flutter & Dart</h3>
-                                            <p>Hybrid App Development</p>
-                                        </div>
-                                    </div>
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
-                                            src="./images/firebase-logo.png" width="48px" height="48px">
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Firebase</h3>
-                                            <p>Firestore, Remote Config, Storage, Authentication</p>
-                                        </div>
-                                    </div>
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
-                                            src="./images/bootstrap-logo.png" width="48px" height="48px">
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap</h3>
-                                            <p>Powerful, extensible, and feature-packed frontend toolkit</p>
-                                        </div>
-                                    </div>
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
-                                            src="./images/laravel-logo.png" width="48px" height="48px">
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Laravel</h3>
-                                            <p>A popular PHP web framework with expressive and elegant syntax</p>
-                                        </div>
-                                    </div>
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
-                                            src="./images/mixpanel-logo.png" width="48px" height="48px">
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Mixpanel</h3>
-                                            <p>A powerful marketing analytic tools for tracking user behaviour</p>
-                                        </div>
-                                    </div>
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
-                                            src="./images/moodle-logo.png" width="48px" height="48px">
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Moodle</h3>
-                                            <p>Open-Source E-Learning Web application</p>
-                                        </div>
-                                    </div>
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
-                                            src="./images/linux-logo.png" width="48px" height="48px">
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Linux</h3>
-                                            <p>Ubuntu or CentOS with Nginx</p>
-                                        </div>
-                                    </div>
-                                    <div class="col d-flex align-items-start">
-                                        <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
-                                            src="./images/wordpress-logo.png" width="48px" height="48px">
-                                        <div>
-                                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Wordpress</h3>
-                                            <p>Open-Source Web application for building CMS</p>
-                                        </div>
-                                    </div>
-
-
+                                <div class="col-lg-7">
+                                    <h2 class="fw-bolder">Property Management Mobile App</h2>
+                                    <p>
+                                        A mobile app for property owners to provide feedbacks, receive announcements,
+                                        and pay bills. This app is built using Flutter and GetX,
+                                        and integrated with technology including Firebase, ABA Payway, Mixpanel, and
+                                        Sentry.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="p-3 rounded-4">
+                                        <img class="img-fluid rounded-4 project-image" src="./images/hr-logo.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h2 class="fw-bolder">HRMIS Mobile App</h2>
+                                    <p>
+                                        This app serves as an extension of the existing web application. It provides
+                                        government officials with easy access to their personal information including
+                                        attendance and ID Card. I built this app entirely from scratch with Flutter and
+                                        GetX.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="p-3  rounded-4">
+                                        <img class="img-fluid border rounded-4 project-image"
+                                            src="./images/ebc-logo.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h2 class="fw-bolder">Elearning Platform</h2>
+                                    <p>
+                                        A cost-free and nationwide eLearning platform for students, teachers, government
+                                        officials, and citizens. The project consits of a <a href="https://ebc.edu.kh/"
+                                            target="_blank"><span>CMS</span></a> and <a
+                                            href="https://elearning.ebc.edu.kh/" target="_blank"><span>LMS</span></a>
+                                        with an SSO
+                                        for
+                                        unify user authentication
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="p-3  rounded-4">
+                                        <img class="img-fluid border rounded-4 project-image"
+                                            src="./images/ocm-logo.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h2 class="fw-bolder">Meeting Doc Mobile App</h2>
+                                    <p>
+                                        A small-scale mobile app provides easy accessibility for viewing documents of
+                                        current and past meetings, while also offering user authentication for the
+                                        corresponding web application.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+    <section id="skills">
+        <div class="container px-5 ">
+            <div class="text-center mb-5">
+                <h1 id="skills" class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Skills</span></h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Skills Section-->
+                    <section>
+                        <!-- Skillset Card-->
+                        <div class="card shadow border-0 rounded-4 mb-5">
+                            <div class="card-body p-5">
+                                <!-- Professional skills list-->
+                                <div class="container" id="icon-grid">
+                                    <div class="d-flex align-items-center">
+                                        <h3 class="fw-bolder mb-0">
+                                            <span class="text-gradient d-inline">Professional Skills</span>
+                                        </h3>
+                                    </div>
+
+                                    <div class="row row-cols-1 row-cols-lg-2 g-4 pt-5">
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3"
+                                                src="./images/flutter-logo.png" width="48px" height="48px">
+
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Flutter & Dart</h3>
+                                                <p>Hybrid App Development</p>
+                                            </div>
+                                        </div>
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
+                                                src="./images/firebase-logo.png" width="48px" height="48px">
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Firebase</h3>
+                                                <p>Firestore, Remote Config, Storage, Authentication</p>
+                                            </div>
+                                        </div>
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
+                                                src="./images/bootstrap-logo.png" width="48px" height="48px">
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap</h3>
+                                                <p>Powerful, extensible, and feature-packed frontend toolkit</p>
+                                            </div>
+                                        </div>
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
+                                                src="./images/laravel-logo.png" width="48px" height="48px">
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Laravel</h3>
+                                                <p>A popular PHP web framework with expressive and elegant syntax</p>
+                                            </div>
+                                        </div>
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
+                                                src="./images/mixpanel-logo.png" width="48px" height="48px">
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Mixpanel</h3>
+                                                <p>A powerful marketing analytic tools for tracking user behaviour</p>
+                                            </div>
+                                        </div>
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
+                                                src="./images/moodle-logo.png" width="48px" height="48px">
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Moodle</h3>
+                                                <p>Open-Source E-Learning Web application</p>
+                                            </div>
+                                        </div>
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
+                                                src="./images/linux-logo.png" width="48px" height="48px">
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Linux</h3>
+                                                <p>Ubuntu or CentOS with Nginx</p>
+                                            </div>
+                                        </div>
+                                        <div class="col d-flex align-items-start">
+                                            <img class="bi text-body-secondary flex-shrink-0 me-3 object-fit-contain"
+                                                src="./images/wordpress-logo.png" width="48px" height="48px">
+                                            <div>
+                                                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Wordpress</h3>
+                                                <p>Open-Source Web application for building CMS</p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="my-footer">
         <div class="container ">

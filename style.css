@@ -73,6 +73,10 @@ body {
     background-color: #F0F0F0;
 }
 
+.bg-grey{
+    background-color: #F0F0F0;
+}
+
 .footer-area {
     width: 100%;
 }
@@ -80,4 +84,10 @@ body {
 .social-link {
     color: #000;
     text-decoration-color: #000;
+}
+
+.project-image{
+    width: 200px;
+    height: 200px;
+    max-height: 200px;
 }
