@@ -4,8 +4,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 .top-container {
     position: relative;
     max-width: 100%;
@@ -90,4 +88,8 @@ body {
     width: 200px;
     height: 200px;
     max-height: 200px;
+}
+
+.no-underline {
+    text-decoration: none;
 }
