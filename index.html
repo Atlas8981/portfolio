@@ -34,10 +34,10 @@
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bolder">
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-to-item" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-to-item" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-to-item" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-to-item" href="#skills">Skills</a></li>
                 </ul>
 
                 <div class="nav">
@@ -487,7 +487,8 @@
     <!--smooth scroll-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
     <script>
-        $(document).on('click', 'a.nav-link', function (event) {
+        $(document).on('click', '.scroll-to-item', function (event) {
+
             event.preventDefault();
 
             $('html, body').animate({
