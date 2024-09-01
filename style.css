@@ -93,3 +93,9 @@ body {
 .no-underline {
     text-decoration: none;
 }
+
+.company-image {
+    width: 150px;
+    /* height: 200px; */
+    max-height: 200px;
+}
